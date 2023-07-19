@@ -1,0 +1,54 @@
+.content {
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    padding: 10vh;
+    justify-content: space-evenly;
+}
+
+.main-buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.CharCard {
+    margin-top: 2rem;
+    font-size: 18px;
+}
+
+.LocCard {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+.description {
+    font-family: 'Syne Mono', monospace;
+    font-size: xx-large;
+    color:white;
+}
+
+body {
+    background-image: url("../public/background.jpg");
+    background-size: cover;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10vh;
+}
+
+.headerimg {
+    width: 60%;
+    height: auto;
+}
+.pagebar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6vh;
+}

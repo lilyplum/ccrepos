@@ -1,0 +1,8 @@
+.introduction{
+    @apply text-4xl leading-loose font-serif max-w-6xl ;
+}
+
+.btnintroduction{
+    @apply space-y-5 
+}
+

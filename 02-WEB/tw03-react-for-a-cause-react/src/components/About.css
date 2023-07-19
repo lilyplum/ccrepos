@@ -1,0 +1,13 @@
+/* .about {
+    font-size: 20px;
+    line-height: 500%;
+    font-family: Leitura News Roman 3 Leitura News Roman 3;
+}
+
+#about {
+    font-family: Sunset Gothic;
+} */
+
+.about {
+    @apply  text-4xl leading-loose font-serif max-w-6xl
+}

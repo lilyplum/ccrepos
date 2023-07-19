@@ -1,0 +1,9 @@
+.slideshow {
+  @apply max-w-full w-full object-cover object-center h-[800px];
+}
+
+@media only screen and (max-width: 480px) {
+  .slideshow {
+    height: 250px;
+  }
+}

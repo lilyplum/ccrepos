@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 6rem;
+}
+
+header {
+  height: 6rem;
+}
+
+footer {
+  margin-top: auto;
+}
+
+main {
+  margin: auto 0;
+}

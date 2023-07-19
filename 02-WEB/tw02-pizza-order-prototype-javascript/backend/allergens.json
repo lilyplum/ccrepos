@@ -1,0 +1,69 @@
+[
+    {
+        "id": "A",
+        "name": "gluten"
+    },
+
+    {
+        "id": "B",
+        "name": "crustaceans"
+    },
+
+    {
+        "id": "C",
+        "name": "eggs"
+    },
+
+    {
+        "id": "D",
+        "name": "fish"
+    },
+
+    {
+        "id": "E",
+        "name": "peanuts"
+    },
+
+    {
+        "id": "F",
+        "name": "soja"
+    },
+
+    {
+        "id": "G",
+        "name": "milk"
+    },
+
+    {
+        "id": "H",
+        "name": "nuts"
+    },
+
+    {
+        "id": "L",
+        "name": "celery"
+    },
+
+    {
+        "id": "M",
+        "name": "mustard"
+    },
+
+    {
+        "id": "N",
+        "name": "sesame seed"
+    },
+
+    {
+        "id": "O",
+        "name": "sulphur dioxide and sulphites"
+    },
+    {
+        "id": "P",
+        "name": "lupins"
+    },
+    {
+        "id": "R",
+        "name": "molluscs"
+    }
+]

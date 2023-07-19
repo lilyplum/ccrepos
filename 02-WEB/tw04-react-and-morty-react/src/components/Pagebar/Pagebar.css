@@ -1,0 +1,18 @@
+.hidden{
+    display: none
+}
+
+.currentPage{
+    color: #43992f;
+}
+
+.pagebar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.pagebar > button {
+    margin: 5px;
+}

@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.btn {
+    @apply bg-transparent hover:bg-green-800 text-black font-semibold hover:text-yellow-100 py-10 px-12 border border-black hover:border-transparent rounded text-3xl;
+}
+
+.btn-bottom {
+    @apply bg-transparent hover:bg-yellow-500/75 text-black font-semibold hover:text-yellow-100 py-10 px-12 border border-black hover:border-transparent rounded text-3xl;
+}
+
+.component {
+    @apply flex justify-center items-center m-52;
+}
+
+input {
+    @apply shadow appearance-none border rounded w-1/2 py-2 px-3 text-gray-700 leading-tight focus:outline-none ;
+      /* focus:shadow-outline */
+}

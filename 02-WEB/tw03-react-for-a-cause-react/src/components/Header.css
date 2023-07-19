@@ -1,0 +1,21 @@
+.headerbar {
+    @apply flex justify-between items-center min-h-48 font-myfont;
+}
+
+.logo {
+    @apply text-6xl font-bold;
+}
+
+@media (min-width: 450px) {
+    .logo {
+        margin-left: 20px;
+    }
+}
+
+.header-a {  
+    @apply px-10 py-[6rem] font-medium hover:bg-yellow-50/50 ;
+}
+
+a {
+    @apply font-medium hover:text-yellow-50;
+}

@@ -1,0 +1,73 @@
+[
+  {
+    "id": 1,
+    "name": "Autumn",
+    "ingredients": ["cream chesse", "onion", "braised pumkin", "bacon"],
+
+    "price": 15.90,
+    "allergens": ["A", "G"]
+  },
+
+  {
+    "id": 2,
+    "name": "Cardinale",
+    "ingredients": ["tomato sauce", "ham", "mozzarella", "oregano"],
+
+    "price": 10.40,
+    "allergens": ["A", "G"]
+  },
+
+  {
+    "id": 3,
+    "name": "Salami",
+    "ingredients": ["tomato sauce", "onion", "salami", "mozzarella", "oregano"],
+
+    "price": 11.90,
+    "allergens": ["A", "G"]
+  },
+
+  {
+    "id": 4,
+    "name": "Frutti di Mare",
+    "ingredients": ["tomato sauce", "sea food", "mozzarella", "oregano"],
+
+    "price": 12.50,
+    "allergens": ["A", "G", "D", "B", "R"]
+  },
+
+  {
+    "id": 5,
+    "name": "Tonno",
+    "ingredients": ["tomato sauce", "tuna", "olives", "mozzarella", "oregano"],
+
+    "price": 11.40,
+    "allergens": ["A", "G", "D"]
+  },
+
+  {
+    "id": 6,
+    "name": "Spinacy",
+    "ingredients": ["tomato sauce", "spinach", "feta"],
+
+    "price": 9.90,
+    "allergens": ["A", "G"]
+  },
+
+  {
+    "id": 7,
+    "name": "Margherita",
+    "ingredients": ["tomato sauce", "mozzarella", "oregano"],
+
+    "price": 8.50,
+    "allergens": ["A", "G"]
+  },
+
+  {
+    "id": 8,
+    "name": "Hawaii",
+    "ingredients": ["tomato sauce", "ananas", "ham", "mozzarella", "oregano"],
+
+    "price": 10.90,
+    "allergens": ["A", "G"]
+  }
+]

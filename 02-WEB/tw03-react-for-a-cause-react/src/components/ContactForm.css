@@ -1,0 +1,18 @@
+.contactForm {
+  @apply bg-gradient-to-b from-amber-600 to-green-500 inset-0 fixed text-xl  flex justify-center items-center;
+}
+
+
+.thanksPopUp {
+  @apply p-6 w-2/4 mx-auto rounded-xl shadow-xl flex items-center space-x-4 text-3xl font-medium text-white leading-loose;
+}
+
+.formElem {
+  @apply w-3/4 flex-col flex justify-center items-center text-4xl;
+}
+
+textarea {
+  @apply  p-4 w-3/4  text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:border-gray-600 dark:placeholder-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500;
+}
+
+/* text-sm block*/
