@@ -1,0 +1,27 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F2EDFA;
+    margin: 5%;
+}
+
+#root {
+    grid-gap: 15px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    /* border: 10px solid hsl(266, 44%, 59%, .4);
+    border-radius: 10px; */
+}
+
+.days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 5px;
+    align-items: center;
+    justify-items: center;
+}
+
+section {
+    background-color: hsl(267, 84%, 71%, .5);
+    border-radius: 10px;
+}

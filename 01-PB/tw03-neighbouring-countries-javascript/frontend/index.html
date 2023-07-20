@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Neighbouring Countries</title>
+	<script src="data.js" defer></script>
+	<script src="script.js" defer></script>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<nav id="toolbar">
+		<div id="custom-select">
+			<select id="all"></select>
+		</div><br>
+		<button id="population">Neighbour with the largest population</button>
+		<button id="area">Neighbour with the largest area</button>
+		<button id="previous" class="disabled">Previous Country</button>
+		<button id="next" class="disabled">Next country</button>
+	</nav>
+	<div id="Flag-Information">
+		<main id="country">
+			<label id="noneselected">Please select a country</label>
+			<img id="flag">
+			<h1 id="common-name"></h1>
+			<h2 id="region"></h2>
+			<h3 id="subregion"></h3>
+			<h4 id="capital"></h4>
+		</main>
+	</div>
+</body>
+</html>

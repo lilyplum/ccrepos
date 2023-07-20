@@ -1,0 +1,95 @@
+#Flag-Information {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#country {
+    font-size: 22px;
+    color:#130101;
+    text-align: center;
+    background-color: rgba(169, 169, 169, 0.5);
+    border: 2px solid black;
+    width: 30%;
+    padding: 10px 10px;
+    border-radius: 6px;
+    font-weight: 200;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    
+}
+
+#population, #area {
+    background-color: #ca4242;
+    border: 0.5px solid black;
+    border-radius: 6px;
+    color: white;
+    padding: 15px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+}
+
+#previous, #next {
+    position: absolute;
+    top: 150%;
+    background-color: #ca4242;
+    border: 0.5px solid black;
+    border-radius: 6px;
+    color: white;
+    padding: 15px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+}
+
+#previous {
+    left: 35%;
+}
+
+#next {
+    right: 35%;
+}
+
+.custom-select {
+    position: absolute;
+    padding: top;
+}
+
+#toolbar {
+    position: relative;
+    text-align: center;
+    margin-top: 5%;
+    
+}
+
+#common-name, #region, #subregion, #capital {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    background-image: url(/img/earth.png);
+    background-size: 120%;
+    background-position: center;
+
+}
+
+.disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+#all {
+    width: 20%;
+    padding: 15px 10px;
+    border: 4px solid red;
+    border-radius: 6px;
+}
+
+#flag {
+    border: 2px solid black;
+    border-radius: 4px;
+}

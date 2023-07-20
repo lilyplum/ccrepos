@@ -1,0 +1,32 @@
+.form {
+    position: relative;
+    left: 10%;
+}
+
+.sheet {
+    position: relative;
+    left: 45%;
+
+}
+
+.wrapper {
+    display: flex;
+}
+
+
+
+body {
+    background-color: rgb(255, 209, 220);
+}
+
+#charinput {
+    width: 250px;
+}
+
+.hide {
+    display: none;
+}
+
+/* h1 {
+    color: rgb(209, 255, 244);
+} */

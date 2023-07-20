@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./main.js" defer></script>
+    <title>Create Your Character</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="form">
+            <h1>Create your character</h1>
+            <form>
+                <label>Name your Character </label>
+                <input type="text" placeholder="character name"></br>
+                <label>Choose your gender </label>
+                <select class="gender" name="gender">
+                <!--onmousedown="this.value='';" onchange="updateGender(this.value);"-->
+                    <option value="">Select a gender</option>
+                    <option value="female">Female</option>
+                    <option value="male">Male</option>
+                    <option value="non-binary">Non-binary</option>
+                    <option value="none">Genderless</option>
+                </select></br>
+                <label>Choose your race </label>
+                <select class="races" name="race">
+                    <option value="">Select a race</option>
+                    <option value="elf">Elf</option>
+                    <option value="dwarf">Dwarf</option>
+                    <option value="human">Human</option>
+                    <option value="orc">Orc</option>
+                </select></br>
+                <label>Choose your class</label>
+                <select class="classes" name="class">
+                    <option value="">Select a class</option>
+                    <option value="mage">Mage</option>
+                    <option value="ranger">Ranger</option>
+                    <option value="warrior">warrior</option>
+                </select></br>
+            </form>
+        </div>
+        <div class="sheet" style="text-align: center">
+            <h1>Customize your character</h1>
+            <label id="charname"></label>
+            <div style="text-align: center">
+                <img id="female" class="hide" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Venus_symbol.svg/1200px-Venus_symbol.svg.png" alt="Female" width="50px">
+                <img id="male" class="hide" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Male_symbol_%28fixed_width%29.svg/1024px-Male_symbol_%28fixed_width%29.svg.png" alt="Male" width="50px">
+                <img id="nb" class="hide" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Non-binary_symbol_%28alt%2C_fixed_width%29.svg/1200px-Non-binary_symbol_%28alt%2C_fixed_width%29.svg.png" alt="Non-binary" width="50px">
+                <label id="none">
+            </div>
+            <div style="text-align: center">
+                <img id="elf" class="hide" src="https://static0.thegamerimages.com/wordpress/wp-content/uploads/2022/01/img_detail_bard_s.png" alt="Elf" width="300px">
+                <img id="dwarf" class="hide" src="https://i.pinimg.com/originals/e9/ad/3e/e9ad3ee4e39b487bf6b5db71b01d79f1.png" alt="Dwarf" width="300px">
+                <img id="human" class="hide" src="https://i.pinimg.com/originals/66/5b/d7/665bd77aaa5eb8ce5635cbee707fc18e.png" alt="Human" width="300px">
+                <img id="orc" class="hide" src="https://i.pinimg.com/originals/5a/85/3b/5a853b649e79ae485befa48babde05b3.png" alt="Orc" width="300px">
+            </div>
+            <div style="text-align: center">
+                <img id="mage" class="hide" src="https://wotlkdoc.readthedocs.io/_images/08-Mage.png" alt="Mage" width="100px">
+                <img id="ranger" class="hide" src="https://wotlkdoc.readthedocs.io/_images/04-Hunter.png" alt="Ranger" width="100px">
+                <img id="warrior" class="hide" src="https://wotlkdoc.readthedocs.io/_images/01-Warrior.png" alt="warrior" width="100px">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
