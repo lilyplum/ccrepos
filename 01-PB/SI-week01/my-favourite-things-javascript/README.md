@@ -78,4 +78,4 @@ My favourite book's author is: ${myFavs.book.author}
 [Working with Objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects)  
 [Working with Arrays](https://www.digitalocean.com/community/tutorials/understanding-arrays-in-javascript)  
 [Template literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)  
-[Git basics](GitBasics.md)  
+[Git basics](../../GitBasics.md)  

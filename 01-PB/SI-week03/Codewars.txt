@@ -1,0 +1,5 @@
+Filter the number
+Double Every Other
+Swap items in a dictionary
+Sum of a nested list
+Nested List Depth

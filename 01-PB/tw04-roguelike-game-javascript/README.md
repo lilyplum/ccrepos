@@ -103,5 +103,5 @@ Implement further board generating algorithms.
 * Be aware that there is a shallow and a deep copy of a list.
 * Ideal team size is 5. Maximal team size is 7
 ### Backkground materials
-[Objects](JavaScriptObjects.md)  
-[Input/Output](JavascriptIO.md)  
+[Objects](../JavascriptObjects.md)  
+[Input/Output](../JavascriptIO.md)  

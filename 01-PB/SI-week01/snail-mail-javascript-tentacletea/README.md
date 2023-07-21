@@ -73,9 +73,9 @@ The validator should recognize a valid email address.
 * Be sure to structure your conditions in a logical way (e.g. do not check for a valid server name before confirming that there is at least a `` and a . present).
 
 ### Backkground materials
-[Conditional Statements](JavaScriptControlFlow.md)  
+[Conditional Statements](../../JavascriptControlFlow.md)  
 [Introduction to NPM](https://www.w3schools.com/nodejs/nodejs_npm.asp)  
-[Strings](JavaScriptDataTypes.md)  
+[Strings](../../JavascriptDataTypes.md)  
 []()  
 []()  
 []()  
