@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Light/Dark Classes</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+            crossorigin="anonymous"
+        />
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+            crossorigin="anonymous"
+        ></script>
+        <script src="script.js"></script> 
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Home</a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="#"
+                            >Link 1</a
+                        >
+                        <a class="nav-link" href="#">Link 2</a>
+                        <a class="nav-link" href="#">Link 3</a>
+                    </div>
+                    <div class="navbar-nav ms-auto">
+                        <button id="themeSwitch" class="btn btn-primary" onclick="switchTheme()">
+                            Activate Dark Theme
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="container mb-5">
+            <h1>This is the Light theme</h1>
+        </div>
+        <div class="container mb-5">
+            <div class="row">
+                <div class="col column">
+                    <div class="card">
+                        <div class="card-body">
+                            <h2 class="card-title">Column 1 of 3</h2>
+                            <div class="card-text">
+                                <p>
+                                    Lorem ipsum dolor, sit amet consectetur
+                                    adipisicing elit. Expedita minima placeat
+                                    quae natus obcaecati? Repudiandae eaque
+                                    illum tempore porro. Est culpa commodi
+                                    quibusdam, eos minus asperiores iusto quos
+                                    laboriosam provident.
+                                </p>
+                                <p>
+                                    Autem amet voluptatum exercitationem totam
+                                    voluptatibus ad alias. Cupiditate, dolorem
+                                    minima praesentium vitae voluptas dolore
+                                    ratione sapiente reprehenderit provident
+                                    porro voluptatum quae similique quos
+                                    accusantium laboriosam ipsa ea, esse ex!
+                                </p>
+                                <p>
+                                    Ipsam explicabo itaque optio earum
+                                    voluptatibus error architecto quibusdam,
+                                    molestiae autem deserunt saepe magni sequi
+                                    vero distinctio accusantium totam pariatur
+                                    ex consectetur quae at! Velit modi libero
+                                    commodi atque maxime.
+                                </p>
+                                <p>
+                                    Voluptatum quam corporis atque, animi quas
+                                    odit voluptatem consectetur error sit
+                                    corrupti? Et nobis, aliquid quam laboriosam,
+                                    dolorum aspernatur amet iure numquam quo
+                                    voluptatum beatae placeat repellat
+                                    asperiores quidem reiciendis!
+                                </p>
+                            </div>
+                        </div>
+                        <div
+                            class="card-footer d-flex justify-content-between align-items-center text-muted"
+                        >
+                            <small>Small muted text</small
+                            ><a
+                                href="#"
+                                class="btn btn-sm btn-outline-secondary"
+                                >Link</a
+                            >
+                        </div>
+                    </div>
+                </div>
+                <div class="col column">
+                    <div class="card">
+                        <div class="card-body">
+                            <h2 class="card-title">Column 2 of 3</h2>
+                            <div class="card-text">
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Aut perspiciatis
+                                    reiciendis facere quasi molestiae at autem
+                                    incidunt ab cum nostrum quam rerum similique
+                                    eius et blanditiis quibusdam ipsa, officia
+                                    quo!
+                                </p>
+                                <p>
+                                    Reprehenderit, quasi amet. Officia dolore,
+                                    aliquid similique, neque nihil assumenda
+                                    mollitia voluptatum possimus labore quas,
+                                    minima est exercitationem accusantium alias
+                                    libero fuga laboriosam in expedita odio
+                                    quidem dolor adipisci rerum.
+                                </p>
+                                <p>
+                                    Tempore aliquam consequuntur veniam quaerat
+                                    impedit, incidunt porro quis non et! Saepe
+                                    sit dignissimos blanditiis quis modi quia
+                                    reiciendis cupiditate ab? Laborum harum ipsa
+                                    in quos alias minus saepe magnam.
+                                </p>
+                                <p>
+                                    Perspiciatis, perferendis saepe? Porro illo
+                                    aperiam quisquam voluptatem voluptate a
+                                    maxime ea eum explicabo corrupti? Numquam
+                                    eius blanditiis fuga! Sit quas totam
+                                    dignissimos assumenda odit. Reprehenderit
+                                    aliquam molestiae quibusdam officia?
+                                </p>
+                            </div>
+                        </div>
+                        <div
+                            class="card-footer d-flex justify-content-between align-items-center text-muted"
+                        >
+                            <small>Small muted text</small
+                            ><a
+                                href="#"
+                                class="btn btn-sm btn-outline-secondary"
+                                >Link</a
+                            >
+                        </div>
+                    </div>
+                </div>
+                <div class="col column">
+                    <div class="card">
+                        <div class="card-body">
+                            <h2 class="card-title">Column 3 of 3</h2>
+                            <div class="card-text">
+                                <p>
+                                    Lorem ipsum dolor, sit amet consectetur
+                                    adipisicing elit. Perspiciatis beatae
+                                    repellat cum voluptatum, similique ratione
+                                    nemo! Praesentium inventore quos fugiat.
+                                    Atque autem eligendi eum voluptates neque
+                                    possimus voluptate ratione perspiciatis.
+                                </p>
+                                <p>
+                                    Provident magnam nihil adipisci repellat
+                                    numquam quasi aperiam nostrum quia quod
+                                    voluptas consectetur accusantium, iusto
+                                    quidem odio asperiores beatae fugiat
+                                    inventore tenetur neque sint itaque. Velit
+                                    veritatis iste consequuntur similique!
+                                </p>
+                                <p>
+                                    Quo non, facilis ullam porro ad officia,
+                                    alias et reiciendis quos dolore, blanditiis
+                                    necessitatibus nihil sequi libero iusto
+                                    molestiae officiis? Magnam recusandae
+                                    assumenda, repellat facilis sint
+                                    perspiciatis non quidem magni?
+                                </p>
+                                <p>
+                                    Cum perferendis asperiores ab ea voluptatem
+                                    nostrum ipsam sit quam beatae tenetur, odio,
+                                    non, placeat dolores ipsa ipsum recusandae!
+                                    Laboriosam distinctio harum exercitationem
+                                    quasi assumenda repellat tempora?
+                                    Consectetur, sint nihil.
+                                </p>
+                            </div>
+                        </div>
+                        <div
+                            class="card-footer d-flex justify-content-between align-items-center text-muted"
+                        >
+                            <small>Small muted text</small
+                            ><a
+                                href="#"
+                                class="btn btn-sm btn-outline-secondary"
+                                >Link</a
+                            >
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="bg-gradient bg-warning col p-2">
+                    <h3>Register now!</h3>
+                    <form>
+                        <div class="mb-3">
+                            <label for="email" class="form-label"
+                                >Email address</label
+                            >
+                            <input
+                                type="email"
+                                class="form-control"
+                                id="email"
+                                aria-describedby="emailHelp"
+                            />
+                            <div class="form-text">
+                                We'll never share your email with anyone else.
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="passwd" class="form-label"
+                                >Password</label
+                            >
+                            <input
+                                type="password"
+                                class="form-control"
+                                id="passwd"
+                            />
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input
+                                type="checkbox"
+                                class="form-check-input"
+                                id="keep"
+                            />
+                            <label class="form-check-label" for="keep"
+                                >Keep me logged in</label
+                            >
+                        </div>
+                        <div class="mb-3">
+                            <label for="dropdown" class="form-label"
+                                >Preference</label
+                            >
+                            <select
+                                id="dropdown"
+                                class="form-select form-select-sm"
+                                aria-label=".form-select-sm example"
+                            >
+                                <option selected="">
+                                    Open this select menu
+                                </option>
+                                <option value="1">I like this</option>
+                                <option value="2">Me gusta este</option>
+                                <option value="3">Ich mag dieser</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <p>There are some other options:</p>
+                            <div class="form-check form-check-inline">
+                                <input
+                                    type="radio"
+                                    name="radios"
+                                    id="radio-1"
+                                    class="form-check-input"
+                                    checked=""
+                                /><label for="radio-1" class="form-check-label"
+                                    >Option 1</label
+                                >
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input
+                                    type="radio"
+                                    name="radios"
+                                    id="radio-2"
+                                    class="form-check-input"
+                                /><label for="radio-2" class="form-check-label"
+                                    >Option 2</label
+                                >
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input
+                                    type="radio"
+                                    name="radios"
+                                    id="radio-3"
+                                    class="form-check-input"
+                                /><label for="radio-3" class="form-check-label"
+                                    >Option 3</label
+                                >
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            Submit
+                        </button>
+                        <button type="cancel" class="btn btn-outline-danger">
+                            Clear
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-8">
+                    <h3>Double width column</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Mollitia veniam, laborum, dicta nemo maiores nihil
+                        dolor nisi omnis eos neque error accusantium placeat
+                        pariatur voluptates corrupti ad libero, consequuntur
+                        quos.
+                    </p>
+                    <p>
+                        Neque reiciendis odit cum eveniet, enim delectus
+                        doloremque, voluptate iste repellat, laboriosam ex!
+                        Cumque iste sapiente nulla assumenda illo facere itaque
+                        nemo voluptates consequuntur eum et, doloribus odit modi
+                        est.
+                    </p>
+                    <img
+                        src="https://picsum.photos/200"
+                        class="img-thumbnail rounded float-start mr-3"
+                    />
+                    <p>
+                        Adipisci aspernatur laborum vel est necessitatibus rem
+                        asperiores quod dolorem error dicta ad natus corrupti
+                        ipsam unde perferendis neque autem, id dolore provident
+                        cum vitae ducimus dignissimos eum fuga. Ipsam!
+                    </p>
+                    <p>
+                        Eligendi accusamus iusto ullam molestiae officia rerum
+                        odit ex sunt soluta, quae alias incidunt adipisci
+                        officiis similique nostrum nam corporis voluptate cumque
+                        iste non inventore id natus. Debitis, ex accusantium.
+                    </p>
+                    <p>
+                        Itaque ipsam, libero consectetur earum suscipit culpa
+                        repellendus provident sed soluta. Explicabo nemo
+                        dignissimos ratione, esse, numquam ipsam consequatur
+                        modi reprehenderit perferendis libero praesentium
+                        placeat optio minus quas accusamus perspiciatis.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Regular column</h3>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing
+                        elit. Dolorem earum soluta sapiente unde perspiciatis
+                        distinctio ex possimus, mollitia nulla alias eos!
+                        Laboriosam sit quas corrupti quod, totam dolore
+                        necessitatibus nisi?
+                    </p>
+                    <p>
+                        Quo odit aliquam deserunt nostrum ex, saepe alias quos
+                        fugit cupiditate tempore excepturi blanditiis?
+                        Asperiores, quas. Minus accusamus cum deleniti quisquam,
+                        inventore dolorem ut? Quo iste vel explicabo expedita
+                        dicta!
+                    </p>
+                    <p>
+                        Perferendis molestias dolorem, soluta quidem dolore
+                        delectus voluptatem voluptate repellendus possimus ex,
+                        doloribus dicta assumenda laudantium sunt aliquam
+                        excepturi iste enim iusto mollitia commodi? Delectus id
+                        at maxime quae totam!
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="container mb-5">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col">Some</th>
+                        <th scope="col">tabulated</th>
+                        <th scope="col">data</th>
+                        <th scope="col">goes</th>
+                        <th scope="col">here</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>Row 1</th>
+                        <td>Lorem.</td>
+                        <td>Beatae?</td>
+                        <td>Quibusdam.</td>
+                        <td>Saepe!</td>
+                    </tr>
+                    <tr>
+                        <th>Row 2</th>
+                        <td>Lorem.</td>
+                        <td>Incidunt?</td>
+                        <td>Iure.</td>
+                        <td>Accusamus?</td>
+                    </tr>
+                    <tr>
+                        <th>Row 3</th>
+                        <td>Lorem.</td>
+                        <td>Suscipit!</td>
+                        <td>Corporis!</td>
+                        <td>Molestiae?</td>
+                    </tr>
+                    <tr>
+                        <th>Row 4</th>
+                        <td>Lorem.</td>
+                        <td>Officiis?</td>
+                        <td>Non.</td>
+                        <td>Nam!</td>
+                    </tr>
+                    <tr>
+                        <th>Row 5</th>
+                        <td>Lorem.</td>
+                        <td>Ratione?</td>
+                        <td>Quaerat?</td>
+                        <td>Deleniti?</td>
+                    </tr>
+                    <tr>
+                        <th>Row 6</th>
+                        <td>Lorem.</td>
+                        <td>Sequi!</td>
+                        <td>Ipsam!</td>
+                        <td>Necessitatibus.</td>
+                    </tr>
+                    <tr>
+                        <th>Row 7</th>
+                        <td>Lorem.</td>
+                        <td>Amet.</td>
+                        <td>Rerum.</td>
+                        <td>Minima?</td>
+                    </tr>
+                    <tr>
+                        <th>Row 8</th>
+                        <td>Lorem.</td>
+                        <td>Reprehenderit.</td>
+                        <td>Officiis.</td>
+                        <td>Culpa.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="container mt5">
+            <div class="row">
+                <div class="col">
+                    <p class="text-muted">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Voluptatem sit facilis dolore at molestias voluptatibus
+                        accusamus dignissimos ipsa totam? Beatae natus iusto
+                        voluptates laborum alias in consequuntur ab atque
+                        debitis?
+                    </p>
+                    <p class="text-muted">
+                        Commodi omnis dolorum debitis, a qui sequi explicabo
+                        cupiditate quas alias cumque, natus incidunt repudiandae
+                        nemo deleniti doloribus architecto officiis, culpa
+                        labore quos! Culpa a, dignissimos dolore ut dolorum
+                        cumque!
+                    </p>
+                    <p class="text-muted">
+                        Iure nihil eum fuga doloribus ad, maxime dolor
+                        doloremque dolorem harum adipisci aliquam possimus,
+                        earum perspiciatis, corporis ab dolorum libero dicta
+                        dolores ratione? Doloribus tempora ducimus quae
+                        doloremque perspiciatis maiores.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar mt-5">
+            <div class="container-fluid">
+                <span class="navbar-text">This is the footer</span>
+            </div>
+        </nav>
+    </body>
+</html>
