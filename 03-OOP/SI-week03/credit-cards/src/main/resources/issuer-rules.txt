@@ -1,0 +1,3 @@
+Mastercard - starts with a two-digit number between 51 and 55 (also including 55); has always 16 digits
+Visa - starts with 4; has 13 or 16 digits
+American Express (AMEX) - starts with 3, followed by 4 or 7; has always 15 digits

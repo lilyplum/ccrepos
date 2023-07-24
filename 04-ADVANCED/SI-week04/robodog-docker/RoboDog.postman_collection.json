@@ -1,0 +1,65 @@
+{
+	"info": {
+		"_postman_id": "1985d007-1723-4a0d-9faa-f511128d0fe6",
+		"name": "RoboDog",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "get all dogs",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "localhost:8080",
+				"description": "robodog"
+			},
+			"response": []
+		},
+		{
+			"name": "get random",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "localhost:8080/random",
+				"description": "robodog"
+			},
+			"response": []
+		},
+		{
+			"name": "add a new dog",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"breed\": \"SPANIEL\",\r\n    \"name\": \"Lucy\",\r\n    \"age\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "localhost:8080/add"
+			},
+			"response": []
+		},
+		{
+			"name": "upadate a dog named Lucy (Spaniel, 2 yr old)",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"breed\": \"SPANIEL\",\r\n    \"name\": \"Lucy\",\r\n    \"age\": 2\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "localhost:8080/Lucy"
+			},
+			"response": []
+		}
+	]
+}

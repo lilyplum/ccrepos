@@ -1,0 +1,5 @@
+Credit Card Type	Credit Card Number
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Visa	            4111111111111111
+American Express	371449635398431
+Mastercard	        5555555555554444
